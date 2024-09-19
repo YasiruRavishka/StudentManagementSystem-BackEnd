@@ -1,4 +1,4 @@
-# Simple TO-DO List Application
+# Student Management System
 ### Installation
 1. **Clone the Repository**\
    Clone and open the project using IDEA.
