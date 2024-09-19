@@ -2,7 +2,6 @@ package edu.icet.service;
 
 import edu.icet.dto.Student;
 
-import java.util.List;
 import java.util.Map;
 
 public interface StudentService {
@@ -10,7 +9,7 @@ public interface StudentService {
 
     Map getStudent();
 
-    List<Student> getStudent(String name);
+    Student getStudent(Integer id);
 
     void addStudent(Student student);
 

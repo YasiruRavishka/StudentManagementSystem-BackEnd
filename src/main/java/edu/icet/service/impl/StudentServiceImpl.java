@@ -7,7 +7,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @Service
@@ -29,8 +28,8 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public List<Student> getStudent(String name) {
-        return repository.findByName(name);
+    public Student getStudent(Integer id) {
+        return repository.findById(id).get();
     }
 
     @Override

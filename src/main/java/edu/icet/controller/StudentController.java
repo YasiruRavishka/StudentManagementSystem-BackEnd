@@ -7,8 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
-import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -25,9 +23,9 @@ public class StudentController {
         return service.getStudent();
     }
 
-    @GetMapping("/{name}")
-    public List<Student> getStudent(@PathVariable String name) {
-        return service.getStudent(name);
+    @GetMapping("/{id}")
+    public Student getStudent(@PathVariable Integer id) {
+        return service.getStudent(id);
     }
 
     @PostMapping("/add")
