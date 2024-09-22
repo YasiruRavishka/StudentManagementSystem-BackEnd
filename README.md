@@ -1,5 +1,5 @@
 # Student Management System - BackEnd
-### Installation
+## Installation
 1. **Clone the Repository**\
    Clone and open the project using IDEA.
    ```bash
@@ -21,10 +21,10 @@
     username: root
     password: 12345
    ```
-### Run the Loader.java
+## Run the Loader.java
    ```
    ./src/main/java/edu/icet/Loader.java
    ```
-### Use the front-end application
+## Use the front-end application
   [StudentManagementSystem-FrontEnd](https://github.com/YasiruRavishka/StudentManagementSystem-FrontEnd)
    
