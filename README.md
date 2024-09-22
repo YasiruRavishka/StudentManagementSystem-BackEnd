@@ -26,5 +26,5 @@
    ./src/main/java/edu/icet/Loader.java
    ```
 ### Use the front-end application
-  https://github.com/YasiruRavishka/StudentManagementSystem-FrontEnd
+  [StudentManagementSystem-FrontEnd](https://github.com/YasiruRavishka/StudentManagementSystem-FrontEnd)
    
