@@ -1,4 +1,4 @@
-# Student Management System
+# Student Management System - BackEnd
 ### Installation
 1. **Clone the Repository**\
    Clone and open the project using IDEA.
